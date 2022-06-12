@@ -4,6 +4,7 @@ describe('index.js', function () {
       expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
     });
   });
+  
 
   describe('Array functions', function () {
     beforeEach(function () {
